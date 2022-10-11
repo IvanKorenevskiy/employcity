@@ -81,7 +81,7 @@
             </li>
          </ul>
          <form class="order__form form" action="">
-            <select class="form__select" placeholder="Выберите тип системы">
+            <select class="form__select" id="system-type" name="system-type" placeholder="Выберите тип системы">
                <option class="form__option" value="dog">Sed ut perspiciatis</option>
                <option class="form__option" value="cat">Nemo enim ipsam</option>
                <option class="form__option" value="hamster">Et harum quidem</option>
@@ -91,19 +91,19 @@
                <option class="form__option" value="parrot">Temporibus autem</option>
                <option class="form__option" value="spider">Itaque earum rerum</option>
             </select>
-            <input class="form__input" type="text" placeholder="Ваш e-mail">
-            <input class="form__input" type="text" placeholder="Ваше имя">
+            <input class="form__input" type="email" id="email" name="email" placeholder="Ваш e-mail">
+            <input class="form__input" type="text" id="name" name="name" placeholder="Ваше имя">
             <label class="form__range">
                <div class="form__range-container">
                   <span class="form__range-text">Sed ut perspiciatis, unde omnis iste natus</span>
                   <span class="form__range-value">50 %</span>
                </div>
-               <input class="form__range-tool" type="range" oninput="changeRange()">
+               <input class="form__range-tool" type="range" id="range" name="range" oninput="changeRange()">
             </label>
             <label class="form__file">
                <img class="form__file-image" src="./img/stages/file.svg" alt="">
                <span class="title">Добавить файл</span>
-               <input type="file">
+               <input type="file" id="file" name="file">
             </label>
             <input class="form__submit" type="submit">
          </form>
