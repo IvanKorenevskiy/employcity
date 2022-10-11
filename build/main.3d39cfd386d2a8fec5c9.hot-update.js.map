@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./js/index.js"],"names":[],"mappings":";;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA","file":"main.3d39cfd386d2a8fec5c9.hot-update.js","sourcesContent":["import '../sass/style.sass';\r\n\r\n\r\nimport Range from './modules/Range';"],"sourceRoot":""}
