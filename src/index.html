@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+   <title>Заголовок</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+<style>
+</style>
+</head>
+
+<body>
+<header class="header"> 
+   <div class="container header__wrapper">
+      <p class="header__logo">LoremIpsum.<span class="blue">Net</span></p>
+      <ul class="header__menu menu">
+         <li class="menu__item">Бизнес</li>
+         <li class="menu__item">О нас</li>
+         <li class="menu__item">Цены</li>
+         <li class="menu__item">Оформить заказ</li>
+         <div class="header__cross-wrapper"><img class="header__cross" src="./img/header/cross.svg" alt=""></div>
+      </ul>
+      <div class="header__burger-wrapper">
+         <img class="header__burger" src="./img/header/burger-menu.svg" alt="">
+      </div>
+   </div>
+</header>
+
+<main class="main">
+   <div class="container">
+      <div class="main__container">
+         <h1 class="main__heading">
+            <span class="blue">Lorem ipsum </span>dolor&nbsp;sit ametconsectetur <span class="blue">adipiscing</span>
+         </h1>
+         <div class="main__list-container">
+            <div class="main__list-heading">At vero eos et accusamus et iusto odio dignissimos ducimus!</div>
+            <ul class="main__list">
+               <li class="main__list-item"> -  Totam rem aperiam eaque ipsa</li>
+               <li class="main__list-item"> -  Sit voluptatem accusantium doloremque laudantium</li>
+               <li class="main__list-item"> -  Sed ut perspiciatis, unde omnis iste natus error</li>
+            </ul>
+         </div>
+         <div class="main__btn-container">
+            <button class="btn main__white-btn">заказать</button>
+            <button class="btn main__blue-btn">подробнее</button>
+         </div>
+      </div>
+   </div>
+</main>
+<section class="order">
+   <div class="container">
+      <div class="order__container">
+         <h2 class="order__heading">Оформление &nbsp;<span class="blue">Заказа</span></h2>
+         <p class="order__message">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+         <ul class="order__stages">
+            <img class="order__points" src="./img/stages/points.svg" alt="">
+            <li class="order__stage">
+               <img class="order__img" src="./img/stages/st1.svg" alt="">
+               <span class="order__text">Lorem ipsum dolor sit amet</span>
+            </li>
+            <li class="order__stage">
+               <img class="order__img" src="./img/stages/st2.svg" alt="">
+               <span class="order__text">Сonsecteturadipiscing elit</span>
+            </li>
+            <li class="order__stage">
+               <img class="order__img" src="./img/stages/st3.svg" alt="">
+               <span class="order__text">Sed do eiusmod tempor</span>
+            </li>
+            <li class="order__stage">
+               <img class="order__img" src="./img/stages/st4.svg" alt="">
+               <span class="order__text">Esse cillum dolore eu fugiat</span>
+            </li>
+            <li class="order__stage">
+               <img class="order__img" src="./img/stages/st5.svg" alt="">
+               <span class="order__text">Excepteur sint occaecat cupidatat non proident</span>
+            </li>
+         </ul>
+         <form class="order__form form" action="">
+            <select class="form__select" placeholder="Выберите тип системы">
+               <option class="form__option" value="dog">Sed ut perspiciatis</option>
+               <option class="form__option" value="cat">Nemo enim ipsam</option>
+               <option class="form__option" value="hamster">Et harum quidem</option>
+               <option class="form__option" value="parrot">Temporibus autem</option>
+               <option class="form__option" value="spider">Itaque earum rerum</option>
+               <option class="form__option" value="hamster">Et harum quidem</option>
+               <option class="form__option" value="parrot">Temporibus autem</option>
+               <option class="form__option" value="spider">Itaque earum rerum</option>
+            </select>
+            <input class="form__input" type="text" placeholder="Ваш e-mail">
+            <input class="form__input" type="text" placeholder="Ваше имя">
+            <label class="form__range">
+               <div class="form__range-container">
+                  <span class="form__range-text">Sed ut perspiciatis, unde omnis iste natus</span>
+                  <span class="form__range-value">50 %</span>
+               </div>
+               <input class="form__range-tool" type="range" oninput="changeRange()">
+            </label>
+            <label class="form__file">
+               <img class="form__file-image" src="./img/stages/file.svg" alt="">
+               <span class="title">Добавить файл</span>
+               <input type="file">
+            </label>
+            <input class="form__submit" type="submit">
+         </form>
+      </div>
+   </div>
+</section>
+
+<footer class="footer">
+   <div class="container footer__wrapper">
+      <div class="footer__row">
+         <p class="footer__law">© 2018 «LoremIpsum.net» Все права защищены.</p>
+      </div>
+      <span class="footer__spacer"></span>
+      <div class="footer__row">
+         <div class="footer__item">
+            <img class="footer__item-image" src="./img/footer/qiwi.svg" alt="">
+            <span class="footer__item-text">Qiwi wallet</span>
+         </div>
+         <div class="footer__item">
+            <img class="footer__item-image" src="./img/footer/ym.svg" alt="">
+            <span class="footer__item-text">Yandex Money</span>
+         </div>
+         <div class="footer__item">
+            <img class="footer__item-image" src="./img/footer/wm.svg" alt="">
+            <span class="footer__item-text">Web Money</span>
+         </div>
+      </div>
+      <span class="footer__spacer"></span>
+      <div class="footer__row">
+         <a href="mailto:info@ipsum228.com" class="footer__item white-link">
+            <img class="footer__item-image" src="./img/footer/mail.svg" alt="">
+            <span class="footer__item-text">info@ipsum228.com</span>
+         </a>
+         <a href="https://vk.com" class="footer__item white-link">
+            <img class="footer__item-image" src="./img/footer/vk.svg" alt="">
+            <span class="footer__item-text">Мы вконтакте</span>
+         </a>
+      </div>
+   </div>  
+</footer>
+
+</body>
+<script>
+   
+   function changeRange() {
+      let rangeContent = document.querySelector('.form__range-value');
+      let rangeTool = document.querySelector('.form__range-tool');
+      rangeContent.textContent = `${rangeTool.value}%`;
+   }
+   
+</script>
+</html>
